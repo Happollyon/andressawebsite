@@ -1,0 +1,197 @@
+
+<!doctype HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Andressa Fotografia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="andressa fotografia ">
+    <meta name="Autor" content="Fagner Nunes">
+
+
+
+    <link rel="stylesheet" href="trabalhos.css">
+
+</head>
+<body>
+<div class="menu" id="meuMenu">
+    <img id="logo" src="logos/capture4.PNG" alt="image" height="110px" width="240px">
+    <ul>
+        <li><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/download.png" class="ham"></a></li>
+
+        <li>   <a href="trabalhos.html">   <h1> trabalhos </h1> </a><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/hamburguer.png" class="ham2"></a> </li>
+        <li>  <a href="sobre.html">  <h1>sobre</h1> </a> </li>
+        <li> <a href="contato.html">   <h1>contato</h1> </a> </li>
+        <li>   <a href="index.html">   <h1> home</h1> </a> </li>
+        <li> <a href="https://www.facebook.com/Andressa-Fotografia-772371773129621/" target="_blank"> <img  id="face" onmouseover="this.src='logos/online_social_media_facebook-128.png'" onmouseout="this.src='logos/facebook_online_social_media-128.png'" src="logos/facebook_online_social_media-128.png"> </a> </li>
+        <li>  <a href="https://www.instagram.com/andressa_fotografia.0/" target="_blank"> <img  id="inst" onmouseover="this.src='logos/instagram_online_social_media_photo-128.png'" onmouseout="this.src='logos/instagram_online_social_media-128.png'" src="logos/instagram_online_social_media-128.png"> </a> </li>
+    </ul>
+</div>
+
+
+
+
+<div class="container">
+    <div class="mySlides">
+        <div class="number">1/10</div>
+        <img src="photos/1.JPG" style="width: 100%">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">2/10</div>
+        <img src="photos/50903667_807463149620483_3678128791642701824_o.jpg" style="width: 100%" alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">3/10</div>
+        <img src="photos/50474563_804455536587911_3882018340952080384_o.jpg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">4/10</div>
+        <img src="photos/DSC_0100.jpg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">5/10</div>
+        <img src="photos/LRM_EXPORT_20181008_132233.jpg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">6/10</div>
+        <img src="photos/4.jpeg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">7/10</div>
+        <img src="photos/13122018-DSC_0177.jpg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">8/10</div>
+        <img src="photos/6.jpeg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <div class="mySlides">
+        <div class="number">9/10</div>
+        <img src="photos/5.jpg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+    <div class="mySlides">
+        <div class="number">10/10</div>
+        <img src="photos/2.jpeg" style="width: 100%"alt="Mountains and fjords">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+        <p id="caption"></p>
+    </div>
+
+
+    <div class="row">
+       <div class="column">
+
+        <img class="demo cursor" src="photos/1.JPG" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/50903667_807463149620483_3678128791642701824_o.jpg" style="width:100%" onclick="currentSlide(2)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/50474563_804455536587911_3882018340952080384_o.jpg" style="width:100%" onclick="currentSlide(3)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/DSC_0100.jpg" style="width:100%" onclick="currentSlide(4)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/LRM_EXPORT_20181008_132233.jpg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/4.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/13122018-DSC_0177.jpg" style="width:100%" onclick="currentSlide(7)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/6.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/5.jpg" style="width:100%" onclick="currentSlide(9)" alt="Nature and sunrise">
+        </div>
+        <div class="column">
+
+            <img class="demo cursor" src="photos/2.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Nature and sunrise">
+        </div>
+
+
+</div>
+</div>
+
+<script>
+
+
+    function myFunction()
+    { let x = document.getElementById('meuMenu')
+        if(x.className === 'menu')
+        {
+            x.className += "-responsive";
+        }
+        else
+        {
+            x.className = 'menu'
+        }
+    }
+
+
+    let slideIndex = 1
+    showSlides(slideIndex)
+
+    function plusSlides(n)
+    {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n)
+    {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(slideIndex) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+
+        let dots = document.getElementsByClassName("demo");
+
+        let captionText = document.getElementById("caption");
+
+        if (slideIndex > slides.length) {slideIndex = 1}
+
+        if (slideIndex < 1) {slideIndex = slideIndex.length}
+
+        for (i = 0; i < slides.length; i++)
+        {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++)
+        {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+        captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+
+</body>
+</html>
+<div class="footer">
+    <p>Criado por Fagner S. B. Nunes ©  </p>
+</div>

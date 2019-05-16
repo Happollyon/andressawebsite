@@ -1,0 +1,84 @@
+
+<!doctype HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Andressa Fotografia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="andressa fotografia ">
+    <meta name="Autor" content="Fagner Nunes">
+
+    <script>
+        /*~window.onload = function getResolution() {
+            //alert("Your screen resolution is: " + screen.width + "x" + screen.height);
+            if(screen.width<600)
+            {
+                let  logo = document.getElementById('logo');
+                logo.style.width ='120px';
+            }
+        }
+
+         */
+
+        function myFunction() { let x = document.getElementById('meuMenu')
+            if(x.className === 'menu') {
+                x.className += "-responsive";
+            }else {x.className = 'menu'}
+        }
+    </script>
+
+    <link rel="stylesheet" href="contato.css">
+
+</head>
+<body>
+<div class="menu" id="meuMenu">
+    <img id="logo" src="logos/capture4.PNG" alt="image" height="110px" width="240px">
+    <ul>
+        <li><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/download.png" class="ham"></a></li>
+
+        <li>   <a href="trabalhos.html">   <h1> trabalhos </h1> </a><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/hamburguer.png" class="ham2"></a> </li>
+        <li>  <a href="sobre.html">  <h1>sobre</h1> </a> </li>
+        <li> <a href="contato.html">   <h1>contato</h1> </a> </li>
+        <li>   <a href="index.html">   <h1> home</h1> </a> </li>
+        <li> <a href="https://www.facebook.com/Andressa-Fotografia-772371773129621/" target="_blank"> <img  id="face" onmouseover="this.src='logos/online_social_media_facebook-128.png'" onmouseout="this.src='logos/facebook_online_social_media-128.png'" src="logos/facebook_online_social_media-128.png"> </a> </li>
+        <li>  <a href="https://www.instagram.com/andressa_fotografia.0/" target="_blank"> <img  id="inst" onmouseover="this.src='logos/instagram_online_social_media_photo-128.png'" onmouseout="this.src='logos/instagram_online_social_media-128.png'" src="logos/instagram_online_social_media-128.png"> </a> </li>
+    </ul>
+</div>
+
+
+<div class="container">
+
+<form method="POST" action="https://formspree.io/fagnernunes11@gmail.com">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required placeholder="nome"><br>
+
+    <label for="sobrenome">Sobrenome:</label>
+   <input type="text" id="sobrenome" name="sobrenome" required placeholder="sobrenome"><br>
+
+    <label for="local">Local do Evento:</label>
+   <input type="text" id="local"name="local do evento" placeholder="local do evento"><br>
+
+    <label for="cidade">Cidade:</label>
+   <input type="text" id="cidade" required name="cidade" placeholder="cidade"><br>
+
+    <label for="telefone">Telefone:</label>
+   <input type="tel" id="telefone" required name="telefone" placeholder="telefone"><br>
+
+    <label for="email">Email:</label>
+   <input type="email" id="email" name="email" placeholder="email"><br>
+
+    <label for="mensagem">Mensagem:</label>
+   <textarea cols="30" rows="10" id="mensagem" placeholder="deixe sua mensagem." name="Mensagem"></textarea><br>
+
+
+    <input type="submit" value="enviar">
+
+</form>
+
+ </div>
+</body>
+
+<div class="footer">
+    <p>Criado por Fagner S. B. Nunes ©  </p>
+</div>
+</html>

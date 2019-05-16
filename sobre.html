@@ -1,0 +1,66 @@
+
+<!doctype HTML>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Andressa Fotografia</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="andressa fotografia ">
+    <meta name="Autor" content="Fagner Nunes">
+
+    <script>
+        /*~window.onload = function getResolution() {
+            //alert("Your screen resolution is: " + screen.width + "x" + screen.height);
+            if(screen.width<600)
+            {
+                let  logo = document.getElementById('logo');
+                logo.style.width ='120px';
+            }
+        }
+
+         */
+
+        function myFunction() { let x = document.getElementById('meuMenu')
+            if(x.className === 'menu') {
+                x.className += "-responsive";
+            }else {x.className = 'menu'}
+        }
+    </script>
+
+    <link rel="stylesheet" href="sobre.css">
+
+</head>
+<body>
+<div class="menu" id="meuMenu">
+    <img id="logo" src="logos/capture4.PNG" alt="image" height="110px" width="240px">
+    <ul>
+        <li><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/download.png" class="ham"></a></li>
+
+        <li>   <a href="trabalhos.html">   <h1> trabalhos </h1> </a><a href="javascript:void(0)" onclick="myFunction()"><img src="logos/hamburguer.png" class="ham2"></a> </li>
+        <li>  <a href="sobre.html">  <h1>sobre</h1> </a> </li>
+        <li> <a href="contato.html">   <h1>contato</h1> </a> </li>
+        <li>   <a href="index.html">   <h1> home</h1> </a> </li>
+        <li> <a href="https://www.facebook.com/Andressa-Fotografia-772371773129621/" target="_blank"> <img  id="face" onmouseover="this.src='logos/online_social_media_facebook-128.png'" onmouseout="this.src='logos/facebook_online_social_media-128.png'" src="logos/facebook_online_social_media-128.png"> </a> </li>
+        <li>  <a href="https://www.instagram.com/andressa_fotografia.0/" target="_blank"> <img  id="inst" onmouseover="this.src='logos/instagram_online_social_media_photo-128.png'" onmouseout="this.src='logos/instagram_online_social_media-128.png'" src="logos/instagram_online_social_media-128.png"> </a> </li>
+    </ul>
+</div>
+
+<br>
+<br>
+<div class="container">
+
+    <div class="pro">
+
+    <img src="photos/andressa.jpg">
+
+    <p>Minhas fotografias são um vetor entre o que acontece no mundo e as pessoas que não têm como presenciar o que acontece. <br>Espero que a pessoa que entrar numa exposição minha não saia a mesma.</p>
+    </div>
+    </div>
+<br>
+<br>
+
+</body>
+</html>
+<div class="footer">
+    <p>Criado por Fagner S. B. Nunes ©  </p>
+</div>

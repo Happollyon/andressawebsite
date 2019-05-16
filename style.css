@@ -1,0 +1,224 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+}
+/***********************************/
+@media  screen and (max-width: 768px)
+{
+    /* For mobile phones: */
+    /*
+    div.menu h1 {font-size: 25px}
+    div.menu a {padding: 3px;}
+    div.menu ul{bottom: 5px;}
+     div.menu #logo{width: 120px;}
+     */
+
+    div.menu h1{display: none;}
+    div.menu .ham{
+        display: block;}
+    div.menu #inst{display: none;}
+    div.menu #face{display: none;}
+    div.conta{font-size: 10px;}
+    div.imgcont{padding: 3px;}
+
+}
+
+@media  screen and (max-width: 768px)
+{  div.menu-responsive
+{
+    position: relative;
+    border-bottom: solid 2px black;
+    background-color: white;
+    box-shadow:0 4px 8px rgba(0,0,0,0.24);}
+
+
+    .menu-responsive ul
+    {
+        position:relative ;
+        bottom: 0px;
+    }
+    div.menu-responsive li:not(.ham)
+    {
+    }
+    div.menu-responsive li{
+        float: none;
+        bottom: 0px;
+
+    }
+    div.menu-responsive li .ham2
+    {   position: absolute;
+        right: 0px;
+        top: 0px;
+        border-bottom: 0px;
+        display: block;
+    }
+    div.menu-responsive a
+    {
+        padding: 2px;
+        display: block;
+        text-align: center;
+
+
+    }
+    .menu-responsive #face, .menu-responsive #inst
+    {
+        float: inherit;
+        align-content: center;
+        width: 47px;
+        right: 50%;
+
+    }
+
+    .menu-responsive h1
+    {color: #010101;
+        font-size: 30px;
+
+        border: 1px solid #010101;
+        border-radius: 12px;
+    }
+    .menu-responsive  #logo{display: none;}
+
+
+}
+/***********************************/
+body {background-color: white;
+
+}
+.ham
+{display: none;
+    width: 5vh;
+}
+.ham2{display: none;
+    width: 5vh;
+}
+.menu{
+
+    background-color: white;
+    height: 120px;
+    border-bottom: solid 2px black;
+    box-shadow:0 4px 8px rgba(0,0,0,0.24);
+
+}
+
+h1
+{   font-size: 55px;
+    font-family: Gabriola;
+
+    color: #010101;
+    text-shadow:2px 2px #706C6D;
+
+}
+#logo
+{
+    position: relative;
+
+}
+#face {
+    width: 75px;
+
+}
+
+
+#inst
+{
+    width: 75px;
+}
+ul{ list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    bottom:100px;
+
+}
+li {
+    float: right;
+
+}
+li a
+{   display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+
+}
+li a h1:hover
+{
+    color: #fad8c3;
+    text-decoration: overline #fad8c3;
+
+}
+.imgcont
+{
+    white-space: nowrap;
+
+    height:16%;
+    background-color: white;
+    margin-bottom: 0px;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+    padding: 30px;
+}
+
+
+.conta
+{
+    text-align: center;
+    font-family: Gabriola;
+}
+.posit1
+{
+    width: 50%;
+    position: relative;
+    left: 0px;
+
+}
+.posit2
+{   width: 50%;
+    position: relative;
+    left: 50%;
+}
+.posit3
+{  width: 50%;
+    position: relative;
+    left: 0%;
+}
+.posit4
+{   width: 50%;
+    position: relative;
+    left: 50%;
+}
+.posit5
+{width: 50%;
+    position: relative;
+    left:0%;
+}
+.posit6
+{width: 50%;
+    position: relative;
+    left: 50%;
+}
+.footer {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    height: 110px;
+    border-top: solid 2px black;
+    font-size: 25px;
+    font-family: Gabriola;
+
+    color: #010101;
+    text-shadow:2px 2px #706C6D;
+    clear: left;
+
+}
+.conta
+{
+
+    white-space: normal;
+}
